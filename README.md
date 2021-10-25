@@ -34,6 +34,10 @@
 
 在该问题中，学习率为0.01的时候有比较好的效果，准确率达到了90.5%，使用了Dropout、Dice Loss、Adam 优化器、Poly 学习率衰减和 Kaiming 初始化。
 
+接下来是模型在lr=0.01的情况下的五种性质预测准确率图：
+
+![Image discription](img/experiment.jpg)
+
 ## License
 
 This repository is released under the Apache 2.0 license as found in the [LICENSE](https://github.com/rnzhiw/Parallel_hyperparameter_optimization_for_loan_default_prediction/blob/main/LICENSE.md) file.
